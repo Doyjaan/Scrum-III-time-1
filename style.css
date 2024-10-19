@@ -1,0 +1,118 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Fundo claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff6f61; /* Cor de destaque */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* Navegação (Tabs) */
+.tab {
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.tab button {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+    color: #333;
+}
+
+.tab button:hover {
+    color: #ff6f61;
+}
+
+.tab button.active {
+    border-bottom: 3px solid #ff6f61;
+    color: #ff6f61;
+}
+
+/* Formulários */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label, input, select, textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #ff6f61;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #e85e51;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f5f5f5;
+    color: #333;
+    margin-top: 20px;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilo para ícones de redes sociais */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff6f61;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #e85e51;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
